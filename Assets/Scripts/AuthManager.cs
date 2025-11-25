@@ -5,7 +5,22 @@ using UnityEngine.SceneManagement;
 
 public class AuthManager : MonoBehaviour
 {
+    public static AuthManager Instance { get; private set; }
+
     private FirebaseAuth auth;
+
+    private void Awake()
+    {
+        // Singleton Setup
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
+        Instance = this;
+        DontDestroyOnLoad(gameObject); // sahne geçiþinde yok olmasýn
+    }
 
     private void Start()
     {
