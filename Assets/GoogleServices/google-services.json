@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1061783950636",
+    "project_id": "gmcase-c6da9",
+    "storage_bucket": "gmcase-c6da9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1061783950636:android:aab480e9d1d3a811e70889",
+        "android_client_info": {
+          "package_name": "com.DefaultCompany.GMCaseURP"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB0GjoGqrjQ96HOxHdPbQW9_PJW4NnGUc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
